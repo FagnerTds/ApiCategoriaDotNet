@@ -108,3 +108,4 @@ E:\Fagner\Documents\Programação\C#\Projetos\ApiCatalogo\ApiCatalogo\bin\Debug\
 E:\Fagner\Documents\Programação\C#\Projetos\ApiCatalogo\ApiCatalogo\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Fagner\Documents\Programação\C#\Projetos\ApiCatalogo\ApiCatalogo\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Fagner\Documents\Programação\C#\Projetos\ApiCatalogo\ApiCatalogo\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Fagner\Documents\Programação\C#\Projetos\ApiCatalogo\ApiCatalogo\obj\Debug\net8.0\ApiCatalogo.sourcelink.json
