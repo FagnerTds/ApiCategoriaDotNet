@@ -18,19 +18,18 @@ namespace ApiCatalogo.Controllers
 
 
         [HttpGet("produtos")]
-        public ActionResult<IEnumerable<Categoria>> GetCategoriasProduto()
+        public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProduto()
         {
-            return _context.Categorias.Include(p => p.Produtos).ToList();
+            return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
         }
 
 
         [HttpGet]
-        public ActionResult<IEnumerable<Categoria>> Get()
+        public async Task<ActionResult<IEnumerable<Categoria>>> Get()
         {
             try
             {
-
-                var categorias = _context.Categorias.AsNoTracking().ToList();
+                var categorias = await _context.Categorias.AsNoTracking().ToListAsync();
                 if (categorias is null)
                     return NotFound("Categoria não pode ser encontrada...");
                 return categorias;
@@ -45,11 +44,11 @@ namespace ApiCatalogo.Controllers
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
-        public ActionResult<Categoria> Get(int id)
+        public async Task<ActionResult<Categoria>> Get(int id)
         {
             try
             {
-                var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
+                var categoria = await _context.Categorias.FirstOrDefaultAsync(c => c.CategoriaId == id);
                 if (categoria is null)
                     return NotFound($"Categoria com id={id} não pode ser encontrada...");
                 return Ok(categoria);
