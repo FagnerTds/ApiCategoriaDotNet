@@ -1,5 +1,6 @@
 ﻿using ApiCatalogo.Context;
 using ApiCatalogo.Models;
+using ApiCatalogo.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,124 +11,73 @@ namespace ApiCatalogo.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        public CategoriasController(AppDbContext appDbContext)
+        private readonly ICategoriaRepository _repository;
+        public CategoriasController(ICategoriaRepository repository)
         {
-            _context = appDbContext;
+            _repository = repository;
         }
 
 
-        [HttpGet("produtos")]
-        public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProduto()
-        {
-            return await _context.Categorias.Include(p => p.Produtos).ToListAsync();
-        }
+        //[HttpGet("produtos")]
+        //public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProduto()
+        //{
+        //    return await _repository.Categorias.Include(p => p.Produtos).ToListAsync();
+        //}
 
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Categoria>>> Get()
+        public  ActionResult<IEnumerable<Categoria>> Get()
         {
-            try
-            {
-                var categorias = await _context.Categorias.AsNoTracking().ToListAsync();
-                if (categorias is null)
-                    return NotFound("Categoria não pode ser encontrada...");
-                return categorias;
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Ocorreu um problema ao tratar a solicitação");
-            }
-
+            var categorias = _repository.GetCategorias();
+            return Ok(categorias);
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
-        public async Task<ActionResult<Categoria>> Get(int id)
+        public  ActionResult<Categoria> Get(int id)
         {
-            try
-            {
-                var categoria = await _context.Categorias.FirstOrDefaultAsync(c => c.CategoriaId == id);
-                if (categoria is null)
-                    return NotFound($"Categoria com id={id} não pode ser encontrada...");
-                return Ok(categoria);
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Ocorreu um problema ao tratar a solicitação");
-            }
-
+            var categoria = _repository.GetCategoria(id);
+            if (categoria is null)
+                return NotFound($"Categoria com id={id} não pode ser encontrada...");
+            return Ok(categoria);
         }
+
 
         [HttpPost]
         public ActionResult Post(Categoria categoria)
         {
-            try
-            {
-                if (categoria == null)
-                    return BadRequest();
+            if (categoria is null)
+                return BadRequest("Dados inválidos");
 
-                _context.Categorias.Add(categoria);
-                _context.SaveChanges();
+            var categoriaCriada = _repository.Create(categoria);
+            
 
-                return new CreatedAtRouteResult("ObterCategoria",
-                    new { id = categoria.CategoriaId }, categoria);
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Ocorreu um problema ao tratar a solicitação");
-            }
+            return new CreatedAtRouteResult("ObterCategoria",
+                new { id = categoriaCriada.CategoriaId }, categoriaCriada);
 
         }
 
         [HttpPut("{id:int}")]
         public ActionResult Put(int id, Categoria categoria)
         {
-            try
-            {
-                if (id != categoria.CategoriaId)
-                    return BadRequest();
+            if (id != categoria.CategoriaId)
+                return BadRequest();
 
-                _context.Entry(categoria).State = EntityState.Modified;
-                _context.SaveChanges();
+            _repository.Update(categoria);            
 
-                return Ok(categoria);
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                     "Ocorreu um problema ao tratar a solicitação");
-            }
-
+            return Ok(categoria);
         }
 
         [HttpDelete("{id:int}")]
         public ActionResult Delete(int id)
         {
-            try
-            {
-                var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
-                if (categoria != null)
-                    return NotFound($"Categoria com id={id} não pode ser encontrada...");
 
-                _context.Remove(categoria);
-                _context.SaveChanges();
+            var categoria = _repository.GetCategoria(id);
+            if (categoria != null)
+                return NotFound($"Categoria com id={id} não pode ser encontrada...");
 
-                return Ok(categoria);
+            var categoriaExcluida = _repository.Delete(id);
 
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                     "Ocorreu um problema ao tratar a solicitação");
-            }
+            return Ok(categoriaExcluida);
         }
 
     }
