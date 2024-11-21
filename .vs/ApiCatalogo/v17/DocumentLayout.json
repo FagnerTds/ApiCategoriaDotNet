@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\",
+  "WorkspaceRootPath": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,74 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Models\\Produto.cs",
-              "RelativeToolTip": "ApiCatalogo\\Models\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T19:10:54.199Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAARAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeToolTip": "ApiCatalogo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:27:55.469Z",
+              "WhenOpened": "2024-11-21T12:29:13.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ApiCatalogo\\Properties\\launchSettings.json",
+              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
+              "RelativeToolTip": "ApiCatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:40:19.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiCatalogo\\appsettings.json",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "RelativeToolTip": "ApiCatalogo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T16:49:44.563Z",
+              "WhenOpened": "2024-11-21T11:30:31.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiCatalogo",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
+              "RelativeDocumentMoniker": "ApiCatalogo\\ApiCatalogo.csproj",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\ApiCatalogo.csproj",
+              "RelativeToolTip": "ApiCatalogo\\ApiCatalogo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T11:08:53.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Title": "Produto.cs",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Models\\Produto.cs",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Models\\Produto.cs",
+              "RelativeToolTip": "ApiCatalogo\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:25:45.138Z",
+              "WhenOpened": "2024-11-19T19:10:54.199Z",
               "EditorCaption": ""
             }
           ]
