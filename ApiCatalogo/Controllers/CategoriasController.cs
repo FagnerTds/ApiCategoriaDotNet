@@ -17,7 +17,6 @@ namespace ApiCatalogo.Controllers
             _repository = repository;
         }
 
-
         //[HttpGet("produtos")]
         //public async Task<ActionResult<IEnumerable<Categoria>>> GetCategoriasProduto()
         //{
@@ -72,7 +71,7 @@ namespace ApiCatalogo.Controllers
         {
 
             var categoria = _repository.GetCategoria(id);
-            if (categoria != null)
+            if (categoria is null)
                 return NotFound($"Categoria com id={id} não pode ser encontrada...");
 
             var categoriaExcluida = _repository.Delete(id);

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwEgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:52:50.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
+              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
+              "RelativeToolTip": "ApiCatalogo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:25:22.976Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -46,54 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "ApiCatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T19:23:46.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
-              "RelativeToolTip": "ApiCatalogo\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:37:02.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "RelativeToolTip": "ApiCatalogo\\Repositories\\CategoriaRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "ApiCatalogo\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:34:56.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "ApiCatalogo\\Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwC0AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:36:44.905Z",
+              "WhenOpened": "2024-11-25T17:05:40.803Z",
               "EditorCaption": ""
             }
           ]
