@@ -11,8 +11,8 @@ namespace ApiCatalogo.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly ICategoriaRepository _repository;
-        public CategoriasController(ICategoriaRepository repository)
+        private readonly IRepository<Categoria> _repository;
+        public CategoriasController(IRepository<Categoria> repository)
         {
             _repository = repository;
         }
@@ -27,14 +27,14 @@ namespace ApiCatalogo.Controllers
         [HttpGet]
         public  ActionResult<IEnumerable<Categoria>> Get()
         {
-            var categorias = _repository.GetCategorias();
+            var categorias = _repository.GetAll();
             return Ok(categorias);
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public  ActionResult<Categoria> Get(int id)
         {
-            var categoria = _repository.GetCategoria(id);
+            var categoria = _repository.Get(c => c.CategoriaId == id);
             if (categoria is null)
                 return NotFound($"Categoria com id={id} não pode ser encontrada...");
             return Ok(categoria);
@@ -70,11 +70,11 @@ namespace ApiCatalogo.Controllers
         public ActionResult Delete(int id)
         {
 
-            var categoria = _repository.GetCategoria(id);
+            var categoria = _repository.Get(c => c.CategoriaId == id);
             if (categoria is null)
                 return NotFound($"Categoria com id={id} não pode ser encontrada...");
 
-            var categoriaExcluida = _repository.Delete(id);
+            var categoriaExcluida = _repository.Delete(categoria);
 
             return Ok(categoriaExcluida);
         }
