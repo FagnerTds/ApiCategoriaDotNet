@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\",
+  "WorkspaceRootPath": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|c:\\users\\mirasoft\\documents\\backend\\dotnet\\catalogo\\apicategoriadotnet\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|e:\\fagner\\documents\\programa\u00E7\u00E3o\\c#\\projetos\\apicatalogo\\apicatalogo\\dtos\\mappings\\produtodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287F9B27-C727-4087-B63C-2DF92BB0A8F3}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\dtos\\mappings\\produtodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeToolTip": "ApiCatalogo\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:52:54.201Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -37,46 +46,16 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "ApiCatalogo\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T19:31:24.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Program.cs",
-              "RelativeToolTip": "ApiCatalogo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T19:28:56.586Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "ApiCatalogo\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\mirasoft\\Documents\\BackEnd\\dotNet\\Catalogo\\ApiCategoriaDotNet\\ApiCatalogo\\Repositories\\Repository.cs",
-              "RelativeToolTip": "ApiCatalogo\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Title": "ProdutoDTOMappingProfile.cs",
+              "DocumentMoniker": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\DTOs\\Mappings\\ProdutoDTOMappingProfile.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\DTOs\\Mappings\\ProdutoDTOMappingProfile.cs",
+              "ToolTip": "E:\\Fagner\\Documents\\Programa\u00E7\u00E3o\\C#\\Projetos\\ApiCatalogo\\ApiCatalogo\\DTOs\\Mappings\\ProdutoDTOMappingProfile.cs",
+              "RelativeToolTip": "ApiCatalogo\\DTOs\\Mappings\\ProdutoDTOMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T19:25:28.481Z",
+              "WhenOpened": "2024-11-28T20:50:00.94Z",
               "EditorCaption": ""
             }
           ]

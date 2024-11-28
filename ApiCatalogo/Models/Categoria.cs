@@ -9,13 +9,13 @@ namespace ApiCatalogo.Models;
 public class Categoria
 {
     [JsonConstructor]
-    Categoria()
+    public Categoria()
     {
         Produtos = new Collection<Produto>();
     }
    
 
-        [Key]
+    [Key]
     public int CategoriaId { get; set; }
 
     [Required]
