@@ -220,3 +220,8 @@ C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalo
 C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\obj\Debug\net8.0\ApiCatalogo.pdb
 C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\obj\Debug\net8.0\ApiCatalogo.genruntimeconfig.cache
 C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\obj\Debug\net8.0\ref\ApiCatalogo.dll
+C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\mirasoft\Documents\BackEnd\dotNet\Catalogo\ApiCategoriaDotNet\ApiCatalogo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
